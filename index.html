@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/font_color.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/media_quries.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Gaming World</title>
 </head>
+
 <body>
-  <h1>Hello Gamer!!</h1>
-  <p class="font-GL">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a fuga tenetur, incidunt facere vitae veritatis nisi dolorem minima. Reiciendis.</p>
-  <p class="font-GB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem a modi, voluptatibus quos necessitatibus itaque quam dolore? Porro, ea delectus.</p>
-  <p class="font-HNL">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam nobis quos ad, laborum perferendis impedit vero! Quasi, eos nostrum.</p>
-  <p class="font-HNM">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste veritatis, molestias molestiae ex eos possimus suscipit perferendis deleniti facilis est.</p>
-  <p class="font-HNB">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ex nobis mollitia quis aperiam! Omnis tempora reprehenderit incidunt consectetur quaerat.</p>
-
-  <div class="bgcolor-red" style="width: 300px; height: 30px;"></div>
-  <div class="bgcolor-silver" style="width: 300px; height: 30px;"></div>
-  <div class="bgcolor-black" style="width: 300px; height: 30px;"></div>
-
+  <!-- Navigation Bar -->
+  <nav class="flex-container flex-space-around flex-nowrap bgcolor-black margin">
+    <!-- Left Part -->
+    <div class="flex flex-justify-center p-2">
+      <div class="">
+        <img src="./assets/images/logo.png" alt="logo" width="35" height="35">
+        <a href="./index.html" class="text-dec font-GB white h4 upper_case">Gaming spark</a>
+      </div>
+      <div class="flex flrx_nowrap align-self-center margin_left">
+        <a href="./index.html">
+          <i class="fa fa-home color-silver mx-2" aria-hidden="true"></i>
+        </a>
+        <a href="./index.html" class="text-dec">
+          <span class="color-silver upper_case text-dec">home</span>
+        </a>
+      </div>
+      <div class="flex flrx_nowrap align-self-center margin_left">
+        <a href="#">
+          <i class="fa fa-th-large color-silver mx-2" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="text-dec">
+          <span class="color-silver upper_case text-dec">Collection</span>
+        </a>
+      </div>
+      <div class="flex flrx_nowrap align-self-center margin_left">
+        <a href="#">
+          <i class="fa fa-shopping-cart color-silver mx-2" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="text-dec">
+          <span class="color-silver upper_case text-dec">Purchase list</span>
+        </a>
+      </div>
+      <div class="flex margin_left hidden-mobile">
+        <button type="button" class="bgcolor-red border-0 white upper_case px-2 font-HNM">post an ad</button>
+      </div>
+    </div>
+    <!-- Right Part -->
+    <div class="flex align-self-center hidden-tablet">
+      <div class="flex flrx_nowrap align-self-center" style="margin-right: 20px;">
+        <a href="#">
+          <i class="fa fa-shopping-bag color-silver mx-2" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="text-dec">
+          <span class="white upper_case text-dec font-HNB h5">Abdul khaliq</span>
+        </a>
+      </div>
+      <a href="#" class="border-radius border border-dark overflow-hidden">
+        <img class="border-radius" src="./assets/images/the witcher 3- wild hunt.png" alt="profile_pic" width="40"
+          height="40">
+      </a>
+    </div>
+  </nav>
+  <!-- Search and main images -->
 </body>
+
 </html>
