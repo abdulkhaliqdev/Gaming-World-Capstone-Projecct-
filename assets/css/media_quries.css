@@ -1,0 +1,51 @@
+/* For Desktop */
+@media screen and (min-width: 992.92px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .margin-horizontal {
+    margin: 0 auto;
+  }
+
+  .flex-space-around {
+    justify-content: space-around;
+  }
+
+  .margin_left {
+    margin-left: 25px;
+  }  
+}
+
+/* For Tablet */
+@media screen and (max-width: 992.92px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+
+  .hidden-tablet {
+    display: none;
+  }
+
+  .margin {
+    margin: auto;
+  }
+}
+
+/* For Mobile */
+@media screen and (max-width: 767.92px) {
+  body {
+    background-color: brown;
+    color: white;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+}
