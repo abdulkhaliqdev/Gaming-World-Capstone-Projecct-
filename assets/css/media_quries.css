@@ -31,7 +31,17 @@
   }
 
   .max_width_hot_card {
-    max-width: 70%;
+    max-width: 80%;
+  }
+
+  .height_332 {
+    height: 322px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 250px;
   }
 }
 
@@ -53,6 +63,16 @@
 
   .font_large {
     font-size: 50px;
+  }
+
+  .height_332 {
+    height: 322px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 200px;
   }
 }
 
@@ -81,7 +101,7 @@
   }
 
   .max_width {
-    max-width: 300px;
+    max-width: 250px;
   }
 
   .max_container {
@@ -114,5 +134,20 @@
 
   .image_height_small {
     height: 130px;
+  }
+
+  .cardContainer {
+    display: block;
+    margin-bottom: 20px;
+    min-width: 280px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .flex_sm {
+    flex-wrap: wrap;
   }
 }

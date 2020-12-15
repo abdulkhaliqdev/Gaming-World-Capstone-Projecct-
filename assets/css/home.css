@@ -89,8 +89,12 @@
   width: 70%;
 }
 
-.height_10 {
-  height: 70%;
+.width_auto {
+  width: auto;
+}
+
+.height_auto {
+  height: auto;
 }
 
 .border_none {
@@ -102,9 +106,19 @@
 }
 
 .border_radius_20 {
-  border-radius: 30%;
+  border-radius: 20%;
 }
 
 .border_1 {
-  border: 1px solid #888;
+  border: 1px solid black;
+}
+
+.card_image {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.text-start {
+  text-align: start;
 }
