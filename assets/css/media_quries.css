@@ -1,16 +1,12 @@
 /* For Desktop */
-@media screen and (min-width: 992.92px) {
+@media (min-width: 992.92px) {
   body {
-    background-color: red;
+    background-color: purple;
     color: white;
   }
 
   .flex-container {
     display: flex;
-  }
-
-  .margin-horizontal {
-    margin: 0 auto;
   }
 
   .flex-space-around {
@@ -20,10 +16,19 @@
   .margin_left {
     margin-left: 25px;
   }
+
+  .input_search_position {
+    left: 25%;
+    bottom: 15%;
+  }
+
+  .margin_small_left {
+    margin-left: 5px;
+  }
 }
 
 /* For Tablet */
-@media screen and (max-width: 992.92px) {
+@media (max-width: 992.92px) {
   body {
     background-color: blue;
     color: white;
@@ -33,13 +38,14 @@
     display: none;
   }
 
-  .margin {
-    margin: auto;
+  .input_search_position {
+    left: 25%;
+    bottom: 15%;
   }
 }
 
 /* For Mobile */
-@media screen and (max-width: 767.92px) {
+@media (max-width: 767.92px) {
   body {
     background-color: brown;
     color: white;
@@ -47,5 +53,14 @@
 
   .hidden-mobile {
     display: none;
+  }
+
+  .input_search_position {
+    left: 28%;
+    bottom: 15%;
+  }
+
+  .full-width {
+    width: 100%;
   }
 }
