@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/font_color.css">
   <link rel="stylesheet" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css.map">
   <link rel="stylesheet" href="./assets/css/home.css">
   <link rel="stylesheet" href="./assets/css/media_quries.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -106,105 +107,358 @@
     </section>
 
     <!-- Hot Add -->
-    <section class="margin_x border border-danger bgwhite max_width_hot_card">
-      <div class="">
-        <p class="upper_case color-silver p-2 font-HNB">hot add</p>
-      </div>
-      <div class="flex margin_x">
-        <!-- < -->
-        <div class="margin_y mx-1">
-          <p class="color-red font-GB border-radius" style="border: 0.5px solid silver;">&#x3c</p>
+    <section class="bgwhite">
+      <div class="margin_x bgwhite max_width_hot_card">
+        <div class="">
+          <p class="upper_case color-silver p-2 font-HNB">hot add</p>
         </div>
-        <div class="mx-auto m-4 d-md-flex">
-          <div class="">
-            <img class="image_width image_height" src="./assets/images/cyberpunk.jpg" alt="image">
+        <div class="flex margin_x">
+          <!-- < -->
+          <div class="margin_y hidden-mobile mx-1">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3c</p>
           </div>
-          <div class="p-2 image_width">
-            <p class="h4 font-GB color-red font_medium ">CyberPunk Available on PC</p>
-            <p class="font-HNM color-silver font_small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-              atque iste
-              officia. Suscipit
-              reprehenderit optio atque sit dicta quod quia, modi id ratione. Officia ipsam eligendi nihil accusantium,
-              aliquid repudiandae.</p>
-            <p class="ont-HNM color-silver font_small mb-0 "><strong class="">By: </strong>Lorem ipsum</p>
-            <p class="ont-HNM color-silver font_small"><strong>Location: </strong>Lorem ipsum dolor sit amet.</p>
-            <div class="border_radius_20 full_width flex flex-nowrap justify-content-around">
-              <button type="button"
-                class="bgcolor-red text-nowrap white border_none upper_case font-HNM font_medium p-1">29.92$</button>
-              <button type="button"
-                class="bgcolor-red text-nowrap border_none white font-medium p-1 upper_case font-HNM">
-                <i class="fa fa-shopping-cart white" aria-hidden="true"></i> Purchase</button>
+          <div class="mx-auto m-4 d-md-flex">
+            <div class="">
+              <img class="image_width image_height" src="./assets/images/cyberpunk.jpg" alt="image">
+            </div>
+            <div class="p-3  image_width">
+              <p class="h4 font-GB color-red font_medium ">CyberPunk Available on PC</p>
+              <p class="font-HNM color-silver font_small">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Saepe
+                atque istealiquid repudiandae.</p>
+              <p class="ont-HNM color-silver font_small mb-0 "><strong class="">By: </strong>Lorem ipsum</p>
+              <p class="ont-HNM color-silver font_small"><strong>Location: </strong>Lorem ipsum dolor sit amet.</p>
+              <div class="full_width d-inline flex flex-nowrap justify-content-around">
+                <button type="button" class="bgcolor-red border-0 p-2 mx-0 font-HNM white  object_fit">29.92$</button>
+                <button type="button" class="bgcolor-red border-0 p-2 mx-0 font-HNM white object_fit">
+                  <i class="fa fa-shopping-cart white" aria-hidden="true"></i> Purchase</button>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- > -->
-        <div class="margin_y mx-1">
-          <p class="color-red font-GB border-radius" style="border: 0.5px solid silver;">
-            &#x3e</p>
+          <!-- > -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3e</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Product -->
-    <section class="margin_x max_width_hot_card" style="background-color: rgba(207, 206, 206, 0.959);">
-      <p class="font-HNM p-2"> <i class="fa fa-star" aria-hidden="true"></i> Feature Games</p>
-      <!-- Section Action -->
-      <section class="flex p-2 margin_x text_center justify-content-around container_card flex_sm max_width_hot_card ">
-        <div class="bgwhite cardContainer">
-          <div class="cards">
-            <img src="./assets/images/csgo.png" class="card_image" alt="...">
-            <div class="text-start">
-              <p class="black">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    <section class="margin_x" style="background-color: #f1f1f1;">
+      <div class="max_width_hot_card margin_x color-silver">
+        <p class="border-bottom pb-3 font-HNM p-2"> <i class="fa fa-star" aria-hidden="true"></i> Feature Games</p>
+        <!-- Section Action -->
+        <section class="flex m-3 text_center justify-content-around flex-md-nowrap container_card flex_sm">
+          <!-- < -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3c</p>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="cardContainer">
-          <div class="cards">
-            <img src="./assets/images/csgo.png" class="card_image" alt="...">
-            <div class="text-start">
-              <p class="black">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="cardContainer">
-          <div class="cards">
-            <img src="./assets/images/csgo.png" class="card_image" alt="...">
-            <div class="text-start">
-              <p class="black">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="cardContainer">
-          <div class="cards">
-            <img src="./assets/images/csgo.png" class="card_image" alt="...">
-            <div class="text-start">
-              <p class="black">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>        
-      </section>
+          <!-- > -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3e</p>
+          </div>
+        </section>
 
-      <!-- Section Adenture -->
-      <section class="">
+        <!-- Section Adenture -->
+        <p class="border-bottom pb-3 font-HNM p-2"> <i class="fa fa-star" aria-hidden="true"></i> Adventure Games</p>
+        <section class="flex m-3 text_center justify-content-around flex-md-nowrap container_card flex_sm">
+          <!-- < -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3c</p>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- > -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3e</p>
+          </div>
+        </section>
 
-      </section>
+        <!-- Section Adenture -->
+        <p class="border-bottom pb-3 font-HNM p-2"> <i class="fa fa-star" aria-hidden="true"></i> Adventure Games</p>
+        <section class="flex m-3 text_center justify-content-around flex-md-nowrap container_card flex_sm">
+          <!-- < -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3c</p>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer margin_right_3">
+            <div class="bgwhite cards">
+              <img src="./assets/images/csgo.png" class="card_image" alt="...">
+              <div class="text-start p-2">
+                <p class="black my-0 font-GB">Conter strike</p>
+                <p class="color-red my-0 font-HNM">Latest</p>
+                <p class="font_small color-silver"><span class="font_small lead color-silver">Form: </span>US Government
+                </p>
+                <div class="flex align-items-center justify-content-between my-0">
+                  <div class="position-relative">
+                    <button type="button" class="border_1 px-2 h4 font-HNB">+</button>
+                  </div>
+                  <span class="color-red font-HNB">250$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- > -->
+          <div class="margin_y mx-1 hidden-mobile">
+            <p class="color-red font-GB border-radius px-2" style="border: 0.5px solid silver;">&#x3e</p>
+          </div>
+        </section>
 
-      <!-- Section Adenture -->
-      <section class="">
-
-      </section>
+      </div>
     </section>
   </main>
 
   <!-- footer -->
   <footer>
-
+    <section class="flex justify-content-around">
+      <div class="">
+        <h6 class="">Gaming spark</h6>
+        <p class="">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque assumenda ab dignissimos commodi aliquid!
+          Debitis et deleniti magnam iusto sequi?
+        </p>
+      </div>
+      <div class="">
+        <h6>CATEGORIES</h6>
+        <div class="">
+          <P class="">Action</P>
+          <P class="">FPF</P>
+          <P class="">Adventure</P>
+          <P class="">Role-playing</P>
+          <P class="">Simulation</P>
+          <P class="">Strategy</P>
+          <P class="">Sports</P>
+          <P class="">Puzzle</P>
+          <P class="">Idle</P>
+          <P class="">Simulation</P>
+          <P class="">Strategy</P>
+          <P class="">Sports</P>
+          <P class="">Puzzle</P>
+          <P class="">Idle</P>
+        </div>
+      </div>
+      <div class="">
+        <h6 class="">NAVIGATION</h6>
+        <p class=""></p>
+        <p class=""></p>
+        <p class=""></p>
+        <p class=""></p>
+        <p class=""></p>
+        <p class=""></p>
+      </div>
+      <div class="">
+        <div class="">
+          <h6 class="">countery</h6>
+          <button disabled="disabled"></button>
+        </div>
+        <div class="">
+          <h6 class="">countery</h6>
+          <button disabled="disabled"></button>
+        </div>
+        <div class="">
+          <h6 class="">countery</h6>
+          <button disabled="disabled"></button>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <div class="">
+        <h5 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+      </div>
+      <div class="">
+        <i class=""></i>
+        <i class=""></i>
+        <i class=""></i>
+        <i class=""></i>
+        <i class=""></i>
+      </div>
+    </section>
   </footer>
-
   <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
 

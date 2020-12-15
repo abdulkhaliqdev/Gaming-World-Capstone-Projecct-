@@ -1,10 +1,5 @@
 /* For Desktop */
 @media (min-width: 992.92px) {
-  body {
-    background-color: purple;
-    color: white;
-  }
-
   .flex-container {
     display: flex;
   }
@@ -31,7 +26,7 @@
   }
 
   .max_width_hot_card {
-    max-width: 80%;
+    max-width: 70%;
   }
 
   .height_332 {
@@ -43,15 +38,14 @@
     border-radius: 5px;
     max-width: 250px;
   }
+
+  .margin_right_3 {
+    margin-right: 20px;
+  }
 }
 
 /* For Tablet */
 @media (max-width: 992.92px) {
-  body {
-    background-color: blue;
-    color: white;
-  }
-
   .hidden-tablet {
     display: none;
   }
@@ -74,15 +68,14 @@
     border-radius: 5px;
     max-width: 200px;
   }
+
+  .margin_right_3 {
+    margin-right: 20px;
+  }
 }
 
 /* For Mobile */
 @media (max-width: 767.92px) {
-  body {
-    background-color: brown;
-    color: white;
-  }
-
   .hidden-mobile {
     display: none;
   }
@@ -137,14 +130,15 @@
   }
 
   .cardContainer {
+    width: 40%;
     display: block;
     margin-bottom: 20px;
-    min-width: 280px;
   }
 
   .cards {
     display: inline-block;
     border-radius: 5px;
+    max-width: 200px;
   }
 
   .flex_sm {

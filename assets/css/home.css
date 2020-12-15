@@ -122,3 +122,7 @@
 .text-start {
   text-align: start;
 }
+
+.object_fit {
+  object-fit: contain;
+}
