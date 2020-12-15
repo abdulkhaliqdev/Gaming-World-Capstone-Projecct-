@@ -18,10 +18,10 @@
     <!-- Left Part -->
     <div class="flex flex-space-between text-nowrap p-2">
       <div class="">
-        <img src="./assets/images/logo.png" alt="logo" width="35" height="35">
-        <a href="./index.html" class="text-dec font-GB white h4 text-nowrap upper_case">Gaming spark</a>
+        <img src="./assets/images/logo.png" alt="logo" width="20" height="20">
+        <a href="./index.html" class="text-dec font-GB white h4 text-nowrap upper_case font_small">Gaming spark</a>
       </div>
-      <div class="flex flex_nowrap align-self-center">
+      <div class="flex flex_nowrap font_small align-self-center">
         <a href="./index.html">
           <i class="fa fa-home color-silver mx-2" aria-hidden="true"></i>
         </a>
@@ -29,7 +29,7 @@
           <span class="color-silver upper_case text-dec">home</span>
         </a>
       </div>
-      <div class="flex flex_nowrap align-self-center margin_left">
+      <div class="flex flex_nowrap font_small align-self-center margin_left">
         <a href="#">
           <i class="fa fa-th-large color-silver mx-2" aria-hidden="true"></i>
         </a>
@@ -37,7 +37,7 @@
           <span class="color-silver upper_case text-dec">Collection</span>
         </a>
       </div>
-      <div class="flex flex_nowrap align-self-center margin_left">
+      <div class="flex flex_nowrap font_small align-self-center margin_left">
         <a href="#">
           <i class="fa fa-shopping-cart color-silver mx-2" aria-hidden="true"></i>
         </a>
@@ -74,8 +74,8 @@
     <section class="flex cover_image">
       <div class="flex cover margin_x w-100 margin_y">
         <!-- Text -->
-        <div class="">
-          <div class="white display-2 upper_case font-HNB align-items-center">
+        <div class="text_center">
+          <div class="text-nowrap white upper_case font-HNB align-items-center font_large">
             Gaming spark
           </div>
           <div class="flex flex-justify-center">
@@ -83,61 +83,63 @@
           </div>
         </div>
         <!-- Input -->
-        <div class="d-md-flex w-50">
-          <button class="border-0 flex dropdown w-lg-25 full-width p-1 px-3">
+        <div class="d-md-flex full_width text_center max_width">
+          <button class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0 ">
             <i class="fa fa-caret-down text-"></i>
             <span>
               <pre class="d-inline"> All Type</pre>
             </span>
-            <div class="">
+            <div class="display_none">
               <span>Action</span>
               <span>Adventure</span>
               <span>Horror</span>
             </div>
           </button>
-          <input class="p-1 px-2 mt-1 mt-md-0 ml-1 margin_small_left w-100 border-0" type="text" id="type" name="text"
-            placeholder="What do you search for?">
-          <input class="p-1 px-2 mt-1 mt-md-0 ml-1 margin_small_left w-100 border-0" type="search" name="search"
+          <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0" type="text" id="type"
+            name="text" placeholder="What do you search for?">
+          <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0" type="search" name="search"
             id="search" placeholder="Search">
-          <input class="p-1 px-2 mt-2 mt-md-0 ml-1 margin_small_left w-100 border-0 bgcolor-red white" type="submit"
-            value="Search">
+          <input class="p-1 px-2 mt-2 mt-md-0 ml-1 full-width margin_small_left border-0 bgcolor-red white"
+            type="submit" value="Search">
         </div>
       </div>
     </section>
 
     <!-- Hot Add -->
-    <section class="width_70 margin_x border border-danger bgwhite">
-      <div class="m-3">
-        <p class="upper_case color-silver font-HNB">hot add</p>
+    <section class="margin_x border border-danger bgwhite max_width_hot_card">
+      <div class="">
+        <p class="upper_case color-silver p-2 font-HNB">hot add</p>
       </div>
       <div class="flex margin_x">
         <!-- < -->
-        <div class="margin_y mx-3">
-          <p class="color-red font-GB py-1 px-2 border-radius h3 font-weight-bold" style="border: 0.5px solid silver;">&#x3c</p>
+        <div class="margin_y mx-1">
+          <p class="color-red font-GB border-radius" style="border: 0.5px solid silver;">&#x3c</p>
         </div>
-        <div class="mx-5">
+        <div class="mx-auto d-md-flex">
           <div class="">
-            <img src="./assets/images/cyberpunk.jpg" alt="image" height="300">
+            <img class="image_width image_height" src="./assets/images/cyberpunk.jpg" alt="image">
           </div>
-          <div class="p-3 border border-info">
-            <p class="h4 font-GB color-red">CyberPunk Available on PC</p>
-            <p class="font-HNM color-silver">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe atque iste
+          <div class="p-2 image_width">
+            <p class="h4 font-GB color-red font_medium ">CyberPunk Available on PC</p>
+            <p class="font-HNM color-silver font_small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              atque iste
               officia. Suscipit
               reprehenderit optio atque sit dicta quod quia, modi id ratione. Officia ipsam eligendi nihil accusantium,
               aliquid repudiandae.</p>
-            <p><span>By: </span>Lorem ipsum</p>
-            <p><span>Location: </span>Lorem ipsum dolor sit amet.</p>
-            <div class="border border-dark">
+            <p class="ont-HNM color-silver font_small mb-0 "><strong class="">By: </strong>Lorem ipsum</p>
+            <p class="ont-HNM color-silver font_small"><strong>Location: </strong>Lorem ipsum dolor sit amet.</p>
+            <div class="border_radius_20 full_width flex flex-nowrap justify-content-around">
               <button type="button"
-                class="bgcolor-red text-nowrap border-0 white upper_case px-2 font-HNM">29.92$</button>
-              <button type="button" class="bgcolor-red text-nowrap border-0 white upper_case px-2 font-HNM">
-                <i class="fa fa-shopping-cart white mx-2" aria-hidden="true"></i>Purchase Data</button>
+                class="bgcolor-red text-nowrap white border_none upper_case font-HNM font_medium p-1">29.92$</button>
+              <button type="button"
+                class="bgcolor-red text-nowrap border_none white font-medium p-1 upper_case font-HNM">
+                <i class="fa fa-shopping-cart white" aria-hidden="true"></i> Purchase</button>
             </div>
           </div>
         </div>
         <!-- > -->
-        <div class="margin_y mx-3">
-          <p class="color-red font-GB py-1 px-2 border-radius h3 font-weight-bold" style="border: 0.5px solid silver;">
+        <div class="margin_y mx-1">
+          <p class="color-red font-GB border-radius" style="border: 0.5px solid silver;">
             &#x3e</p>
         </div>
       </div>
@@ -148,6 +150,8 @@
   <footer>
 
   </footer>
+
+  <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.text_center {
+  text-align: center;
+}
+
 .border-radius {
   border-radius: 50%;
 }
@@ -72,7 +76,7 @@
   background-size: cover;
 }
 
-.dropdown > div {
+.display_none {
   display: none;
 }
 
@@ -85,6 +89,26 @@
   width: 70%;
 }
 
+.vw_70 {
+  width: 70vw;
+}
+
+.vw_60 {
+  width: 60vw;
+}
+
 .height_10 {
   height: 70%;
+}
+
+.border_none {
+  border: none;
+}
+
+.border_left {
+  border-left: 1px;
+}
+
+.border_radius_20 {
+  border-radius: 30%;
 }

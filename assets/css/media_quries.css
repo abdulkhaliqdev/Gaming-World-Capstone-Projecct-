@@ -22,8 +22,16 @@
     bottom: 15%;
   }
 
-  .margin_small_left {
-    margin-left: 5px;
+  .font_large {
+    font-size: 70px;
+  }
+
+  .flex_md {
+    display: flex;
+  }
+
+  .max_width_hot_card {
+    max-width: 70%;
   }
 }
 
@@ -41,6 +49,10 @@
   .input_search_position {
     left: 25%;
     bottom: 15%;
+  }
+
+  .font_large {
+    font-size: 50px;
   }
 }
 
@@ -61,6 +73,34 @@
   }
 
   .full-width {
-    width: 100%;
+    width: 95%;
+  }
+
+  .font_large {
+    font-size: 35px;
+  }
+
+  .max_width {
+    max-width: 300px;
+  }
+
+  .font_medium {
+    font-size: 20px;
+  }
+
+  .font_small {
+    font-size: 8px;
+  }
+
+  .image_width {
+    width: 240px;
+  }
+
+  .image_height {
+    height: 250px;
+  }
+
+  .contianer_height {
+    height: 500px;
   }
 }
