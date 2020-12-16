@@ -20,7 +20,7 @@
     <!-- Left Part -->
     <div class="flex flex-space-between text-nowrap p-2">
       <div class="">
-        <img src="../assets/images/logo.png"
+        <img src="./assets/images/logo.png"
           alt="logo"
           width="20"
           height="20">
@@ -79,7 +79,7 @@
       <a href="#"
         class="border-radius border border-dark overflow-hidden">
         <img class="border-radius"
-          src="../assets/images/the witcher 3- wild hunt.png"
+          src="./assets/images/the_witcher_3-wild-hunt.png"
           alt="profile_pic"
           width="40"
           height="40">
@@ -91,11 +91,11 @@
   <!-- Mian -->
   <main class="font-HNL">
     <!-- Search and cover images -->
-    <section class="flex cover_image vh_40">
+    <section class="flex cover_image vh_60">
       <div class="flex cover margin_x w-100 margin_y">
         <!-- Text -->
         <div class="text_center">
-          <div class="text-nowrap white upper_case font-HNB align-items-center font_medium">
+          <div class="text-nowrap white upper_case font-HNB align-items-center font_large">
             Gaming spark
           </div>
           <div class="flex flex-justify-center">
@@ -106,14 +106,13 @@
         <div class="d-md-flex full_width text_center max_width bgblack">
           <button class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0 ">
             <i class="fa fa-caret-down text-"></i>
-            <span>
-              <pre class="d-inline"> All Type</pre>
+            <span class="d-inline font-HNM">All Type
             </span>
-            <div class="display_none">
+            <span class="display_none">
               <span>Action</span>
               <span>Adventure</span>
               <span>Horror</span>
-            </div>
+            </span>
           </button>
           <div class="hidden-mobile black">.</div>
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
@@ -122,6 +121,7 @@
             name="text"
             placeholder="What do you search for?">
             <div class="hidden-mobile black">.</div>
+          <form class="d-md-flex" action="./other_pages/Search_page.html">
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
             type="search"
             name="search"
@@ -131,6 +131,7 @@
           <input class="p-1 px-2 mt-2 mt-md-0 ml-4 full-width margin_small_left border-0 bgcolor-red white"
             type="submit"
             value="Search">
+          </form>
         </div>
       </div>
     </section>
