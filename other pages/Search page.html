@@ -103,7 +103,7 @@
           </div>
         </div>
         <!-- Input -->
-        <div class="d-md-flex full_width text_center max_width">
+        <div class="d-md-flex full_width text_center max_width bgblack">
           <button class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0 ">
             <i class="fa fa-caret-down text-"></i>
             <span>
@@ -115,17 +115,20 @@
               <span>Horror</span>
             </div>
           </button>
+          <div class="hidden-mobile black">.</div>
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
             type="text"
             id="type"
             name="text"
             placeholder="What do you search for?">
+            <div class="hidden-mobile black">.</div>
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
             type="search"
             name="search"
             id="search"
             placeholder="Search">
-          <input class="p-1 px-2 mt-2 mt-md-0 ml-1 full-width margin_small_left border-0 bgcolor-red white"
+            <div class="hidden-mobile black">..</div>
+          <input class="p-1 px-2 mt-2 mt-md-0 ml-4 full-width margin_small_left border-0 bgcolor-red white"
             type="submit"
             value="Search">
         </div>
@@ -215,80 +218,76 @@
 
   </main>
 
-  <!-- footer -->
-  <footer class="margin_x max_width_hot_card">
-    <section class="flex m-3 justify-content-around flex-md-nowrap container_card flex_sm">
-      <div class="text-center cardContainer w-sm-100 margin_right_3 p-2 max_footer_block ">
-        <h6 class="h5 color-silver">Gaming spark</h6>
-        <p class="font-small">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque assumenda ab dignissimos commodi aliquid!
-          Debitis et deleniti magnam iusto sequi?
-        </p>
-      </div>
-      <div class="cardContainer margin_right_3 p-2 flex flex-column max_footer_block">
-        <h6 class="color-red font-GB m-2 p-2 font_medium border_buttom">CATEGORIES</h6>
-        <div class="flex flex-space-around maxh_footer_block">
-          <div class="flex flex-column">
-            <a class="font_small color-silver text-dec" href="#">Action</a>
-            <a class="font_small color-silver text-dec" href="#">FPF</a>
-            <a class="font_small color-silver text-dec" href="#">Adventure</a>
-            <a class="font_small color-silver text-dec" href="#">Roleplaying</a>
-            <a class="font_small color-silver text-dec" href="#">Simulation</a>
-            <a class="font_small color-silver text-dec" href="#">Strategy</a>
-            <a class="font_small color-silver text-dec" href="#">Sport</a>
-          </div>
-          <div class="flex flex-column">
-            <a class="font_small color-silver text-dec" href="#">Puzzle</a>
-            <a class="font_small color-silver text-dec" href="#">Idle</a>
-            <a class="font_small color-silver text-dec" href="#">Simulation</a>
-            <a class="font_small color-silver text-dec" href="#">Strategy</a>
-            <a class="font_small color-silver text-dec" href="#">Sport</a>
-            <a class="font_small color-silver text-dec" href="#">Puzzle</a>
-            <a class="font_small color-silver text-dec" href="#">Idle</a>
-          </div>
+ <!-- footer -->
+ <footer class="margin_x bgwhite border border-dark">
+  <section class="border-bottom flex m-3 justify-content-around flex-md-nowrap container_card flex_sm">
+    <div class="text-center cardContainer w-sm-100 margin_right_3 p-2 max_footer_block ">
+      <h6 class="h5 color-silver">Gaming spark</h6>
+      <p class="font-small">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque assumenda ab dignissimos commodi aliquid!
+        Debitis et deleniti magnam iusto sequi?
+      </p>
+    </div>
+    <div class="cardContainer margin_right_3 p-2 flex flex-column max_footer_block">
+      <h6 class="color-red font-GB m-2 p-2 border_buttom">CATEGORIES</h6>
+      <div class="flex flex-space-around maxh_footer_block">
+        <div class="flex flex-column">
+          <a class="font_small color-silver text-dec" href="#">Action</a>
+          <a class="font_small color-silver text-dec" href="#">FPF</a>
+          <a class="font_small color-silver text-dec" href="#">Adventure</a>
+          <a class="font_small color-silver text-dec" href="#">Roleplaying</a>
+          <a class="font_small color-silver text-dec" href="#">Simulation</a>
+          <a class="font_small color-silver text-dec" href="#">Strategy</a>
+          <a class="font_small color-silver text-dec" href="#">Sport</a>
+        </div>
+        <div class="flex flex-column">
+          <a class="font_small color-silver text-dec" href="#">Puzzle</a>
+          <a class="font_small color-silver text-dec" href="#">Idle</a>
+          <a class="font_small color-silver text-dec" href="#">Simulation</a>
+          <a class="font_small color-silver text-dec" href="#">Strategy</a>
+          <a class="font_small color-silver text-dec" href="#">Sport</a>
+          <a class="font_small color-silver text-dec" href="#">Puzzle</a>
+          <a class="font_small color-silver text-dec" href="#">Idle</a>
         </div>
       </div>
-      <div class="cardContainer margin_right_3 p-2 flex flex-column max_footer_block">
-        <h6 class="color-red font-GB m-2 p-2 border_buttom">NAVIGATION</h6>
-        <div class="flex flex-column m-2 p-2">
-          <a class="font_small color-silver text-dec" href="./index.html">Home</a>
-          <a class="font_small color-silver text-dec" href="#">Sign In</a>
-          <a class="font_small color-silver text-dec" href="#">Sign Up</a>
-          <a class="font_small color-silver text-dec" href="#">Terms & Condition</a>
-          <a class="font_small color-silver text-dec" href="#">FAQs</a>
-          <a class="font_small color-silver text-dec" href="#">Help</a>
-        </div>
+    </div>
+    <div class="cardContainer margin_right_3 p-2 flex flex-column max_footer_block">
+      <h6 class="color-red font-GB m-2 p-2 border_buttom">NAVIGATION</h6>
+      <div class="flex flex-column m-2 p-2">
+        <a class="font_small color-silver text-dec" href="./index.html">Home</a>
+        <a class="font_small color-silver text-dec" href="#">Sign In</a>
+        <a class="font_small color-silver text-dec" href="#">Sign Up</a>
+        <a class="font_small color-silver text-dec" href="#">Terms & Condition</a>
+        <a class="font_small color-silver text-dec" href="#">FAQs</a>
+        <a class="font_small color-silver text-dec" href="#">Help</a>
       </div>
-      <div class="cardContainer margin_right_3 max_footer_block text_end">
-        <div class="flex flex-space-around my-2">
-          <h6 class="">country</h6>
-          <button class="w-50" disabled="disabled">USA</button>
-        </div>
-        <div class="flex flex-space-around my-2">
-          <h6 class="">Language</h6>
-          <button class="w-50" disabled="disabled">English</button>
-        </div>
-        <div class="flex flex-space-around my-2">
-          <h6 class="">Currency</h6>
-          <button class="w-50" disabled="disabled">US sDoller</button>
-        </div>
+    </div>
+    <div class="cardContainer margin_right_3 max_footer_block text_end">
+      <div class="flex flex-space-around my-2">
+        <h6 class="">country</h6>
+        <button class="w-50" disabled="disabled">USA</button>
       </div>
-    </section>
-    <section class="p-2 flex flex-space-between">
-      <div class="">
-        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="flex flex-space-around my-2">
+        <h6 class="">Language</h6>
+        <button class="w-50" disabled="disabled">English</button>
       </div>
-      <div class="flex border border-dark justify-content-between">
-        <!-- <a class=""><i class="fas fa-yahoo black"></i></a> -->
-          <i class="fa fa-yahoo color-silver" aria-hidden="true"></i>
-        <i class="fa fa-home color-silver mx-2"
-            aria-hidden="true"></i>
-        <!-- <a class="black"><i class="fas fa-linkedin color-silver"></i></a>
-        <a class="black"><i class="fas fa-twitter color-silver"></i></a>
-        <a class="black"><i class="fas fa-facebook color-silver"></i></a> -->
+      <div class="flex flex-space-around my-2">
+        <h6 class="">Currency</h6>
+        <button class="w-50 text-nowrap" disabled="disabled">US Doller</button>
       </div>
-    </section>
-  </footer>
+    </div>
+  </section>
+
+  <section class="p-2 flex flex-space-between">
+    <div class="">
+      <p class="font_small">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="border border-dark">
+
+    </div>
+  </section>
+
+</footer>
   <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
 

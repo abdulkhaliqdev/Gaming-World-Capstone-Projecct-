@@ -15,7 +15,7 @@
   <title>Gaming World</title>
 </head>
 
-<body>
+<body style="background-color: #f1f1f1;">
   <!-- Navigation Bar -->
   <nav class="flex-container flex-space-around flex_nowrap bgcolor-black margin z_index position-fixed w-100">
     <!-- Left Part -->
@@ -104,7 +104,7 @@
           </div>
         </div>
         <!-- Input -->
-        <div class="d-md-flex full_width text_center max_width">
+        <div class="d-md-flex full_width text_center max_width bgblack">
           <button class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0 ">
             <i class="fa fa-caret-down text-"></i>
             <span>
@@ -116,17 +116,20 @@
               <span>Horror</span>
             </div>
           </button>
+          <div class="hidden-mobile black">.</div>
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
             type="text"
             id="type"
             name="text"
             placeholder="What do you search for?">
+            <div class="hidden-mobile black">.</div>
           <input class="p-1 px-2 mt-1 mt-md-0 ml-1 full-width margin_small_left border-0"
             type="search"
             name="search"
             id="search"
             placeholder="Search">
-          <input class="p-1 px-2 mt-2 mt-md-0 ml-1 full-width margin_small_left border-0 bgcolor-red white"
+            <div class="hidden-mobile black">..</div>
+          <input class="p-1 px-2 mt-2 mt-md-0 ml-4 full-width margin_small_left border-0 bgcolor-red white"
             type="submit"
             value="Search">
         </div>
@@ -374,7 +377,7 @@
         <!-- Section Adenture -->
         <p class="border-bottom pb-3 font-HNM p-2"> <i class="fa fa-star"
             aria-hidden="true"></i> Adventure Games</p>
-        <div class="flex m-3 text_center justify-content-around flex-md-nowrap container_card flex_sm">
+        <div class=" flex m-3 text_center justify-content-around flex-md-nowrap container_card flex_sm">
           <!-- < -->
           <div class="margin_y mx-1 hidden-mobile">
             <p class="color-red font-GB border-radius px-2"
@@ -472,8 +475,8 @@
   </main>
 
   <!-- footer -->
-  <footer class="margin_x max_width_hot_card">
-    <section class="flex m-3 justify-content-around flex-md-nowrap container_card flex_sm">
+  <footer class="margin_x bgwhite border border-dark">
+    <section class="border-bottom flex m-3 justify-content-around flex-md-nowrap container_card flex_sm">
       <div class="text-center cardContainer w-sm-100 margin_right_3 p-2 max_footer_block ">
         <h6 class="h5 color-silver">Gaming spark</h6>
         <p class="font-small">
@@ -535,14 +538,8 @@
       <div class="">
         <p class="font_small">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-      <div class="flex border border-dark justify-content-between">
-        <!-- <a class=""><i class="fas fa-yahoo black"></i></a> -->
-          <i class="fa fa-yahoo color-silver mx-2" aria-hidden="true"></i>
-        <i class="fa fa-home color-silver mx-2"
-            aria-hidden="true"></i>
-        <!-- <a class="black"><i class="fas fa-linkedin color-silver"></i></a>
-        <a class="black"><i class="fas fa-twitter color-silver"></i></a>
-        <a class="black"><i class="fas fa-facebook color-silver"></i></a> -->
+      <div class="border border-dark">
+
       </div>
     </section>
 
