@@ -91,11 +91,11 @@
   <!-- Mian -->
   <main class="font-HNL">
     <!-- Search and cover images -->
-    <section class="flex cover_image">
+    <section class="flex cover_image vh_40">
       <div class="flex cover margin_x w-100 margin_y">
         <!-- Text -->
         <div class="text_center">
-          <div class="text-nowrap white upper_case font-HNB align-items-center font_large">
+          <div class="text-nowrap white upper_case font-HNB align-items-center font_medium">
             Gaming spark
           </div>
           <div class="flex flex-justify-center">
@@ -131,58 +131,85 @@
         </div>
       </div>
     </section>
-
-    <!-- Hot Add -->
-    <section class="bgwhite">
-      <div class="margin_x bgwhite max_width_hot_card">
-        <div class="">
-          <p class="upper_case color-silver p-2 font-HNB">hot add</p>
-        </div>
-        <div class="flex margin_x">
-          <!-- < -->
-          <div class="margin_y hidden-mobile mx-1">
-            <p class="color-red font-GB border-radius px-2"
-              style="border: 0.5px solid silver;">&#x3c</p>
-          </div>
-          <div class="mx-auto m-4 d-md-flex">
-            <div class="">
-              <img class="image_width image_height"
-                src="./assets/images/cyberpunk.jpg"
-                alt="image">
-            </div>
-            <div class="p-3  image_width">
-              <p class="h4 font-GB color-red font_medium ">CyberPunk Available on PC</p>
-              <p class="font-HNM color-silver font_small">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Saepe
-                atque istealiquid repudiandae.</p>
-              <p class="ont-HNM color-silver font_small mb-0 "><strong class="">By: </strong>Lorem ipsum</p>
-              <p class="ont-HNM color-silver font_small"><strong>Location: </strong>Lorem ipsum dolor sit amet.</p>
-              <div class="full_width d-inline flex flex-nowrap justify-content-around">
-                <button type="button"
-                  class="bgcolor-red border-0 p-2 mx-0 font-HNM white  object_fit">29.92$</button>
-                <button type="button"
-                  class="bgcolor-red border-0 p-2 mx-0 font-HNM white object_fit">
-                  <i class="fa fa-shopping-cart white"
-                    aria-hidden="true"></i> Purchase</button>
-              </div>
-            </div>
-          </div>
-          <!-- > -->
-          <div class="margin_y mx-1 hidden-mobile">
-            <p class="color-red font-GB border-radius px-2"
-              style="border: 0.5px solid silver;">&#x3e</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="">
+    
+    <section class="flex">
       <!-- left part -->
       <div class="">
-        <div class=""></div>
-      </div>
-      <div class="">
+        
+        <div class="">
+          <form action="#" method="POST">
+            <input type="checkbox" id="Online" name="Online" value="Online">
+            <label for="Online"> Online</label>
+            <input type="checkbox" id="Offline" name="Offline" value="Offline">
+            <label for="Offline"> Offline</label>
+          </form>
+        </div>
+        
+        <div class="">
+          <h6 class="">Type</h6>
+          <form action="#" method="POST">
+            <input type="checkbox" id="Action" name="Action" value="Action">
+            <label for="Action"> Action</label><br>
+            <input type="checkbox" id="Adventure" name="Adventure" value="Adventure">
+            <label for="Adventure"> Adventure</label><br>
+            <input type="checkbox" id="FPS" name="FPS" value="FPS">
+            <label for="FPS"> First Person shooting</label><br>
+          </form>
+        </div>
 
+        <div class="">
+          <h6 class="">Player</h6>
+          <form action="#" method="POST">
+            <input type="checkbox" id="Single" name="Single" value="Single">
+            <label for="Single"> Single</label><br>
+            <input type="checkbox" id="Multi-Player" name="Multi-Player" value="Multi-Player">
+            <label for="Multi-Player"> Multi-Player</label><br>
+            <input type="checkbox" id="custom" name="custom" value="custom">
+            <label for="custom"> Custom</label>
+            <input type="number" id="custom" name="custom" value="custom"><br>
+          </form>
+        </div>
+
+        <div class="">
+          <h6 class="">Price Range</h6>
+          <form action="#" method="POST">
+            <input type="checkbox" id="10$-100$" name="10$-100$" value="10$-100$">
+            <label for="10$-100$"> 10$-100$</label><br>
+            <input type="checkbox" id="100$-500$" name="100$-500$" value="100$-500$">
+            <label for="100$-500$"> 100$-500$</label><br>
+            <input type="checkbox" id="500$-1000$" name="500$-1000$" value="500$-1000$">
+            <label for="500$-1000$"> 500$-1000$</label><br>
+            <input type="checkbox" id="+1000$" name="+1000$" value="+1000$">
+            <label for="+1000$"> +1000$</label><br>
+          </form>
+        </div>
+
+      </div>
+      <!-- right part -->
+      <div class="border border-dark">
+        <div class="mx-auto m-4 d-md-flex">
+          <div class="">
+            <img class="image_width image_height"
+              src="../assets/images/cyberpunk.jpg"
+              alt="image">
+          </div>
+          <div class="p-3  image_width">
+            <p class="h4 font-GB color-red font_medium ">CyberPunk Available on PC</p>
+            <p class="font-HNM color-silver font_small">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Saepe
+              atque istealiquid repudiandae.</p>
+            <p class="ont-HNM color-silver font_small mb-0 "><strong class="">By: </strong>Lorem ipsum</p>
+            <p class="ont-HNM color-silver font_small"><strong>Location: </strong>Lorem ipsum dolor sit amet.</p>
+            <div class="full_width d-inline flex flex-nowrap justify-content-around">
+              <button type="button"
+                class="bgcolor-red border-0 p-2 mx-0 font-HNM white  object_fit">29.92$</button>
+              <button type="button"
+                class="bgcolor-red border-0 p-2 mx-0 font-HNM white object_fit">
+                <i class="fa fa-shopping-cart white"
+                  aria-hidden="true"></i> Purchase</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

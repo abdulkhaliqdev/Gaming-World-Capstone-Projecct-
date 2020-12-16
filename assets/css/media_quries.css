@@ -21,6 +21,14 @@
     font-size: 70px;
   }
 
+  .font_medium {
+    font-size: 50px;
+  }
+
+  .font_small {
+    font-size: 20px;
+  }
+
   .flex_md {
     display: flex;
   }
@@ -57,6 +65,14 @@
 
   .font_large {
     font-size: 50px;
+  }
+  
+  .font_medium {
+    font-size: 30px;
+  }
+
+  .font_small {
+    font-size: 10px;
   }
 
   .height_332 {

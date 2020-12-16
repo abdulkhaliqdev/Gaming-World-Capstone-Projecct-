@@ -74,11 +74,19 @@
 
 .cover_image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/cover.png');
-  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.vh_60 {
+  height: 60vh;
+}
+
+.vh_40 {
+  height: 40vh;
+}
+
 
 .display_none {
   display: none;
