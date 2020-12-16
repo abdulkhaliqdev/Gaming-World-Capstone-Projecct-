@@ -1,0 +1,9 @@
+.hover_red:hover {
+  color: #d35266;
+}
+
+.buttonhover:hover {
+  color: #d35266;
+  background-color: #383838;
+  border: 1px solid white;
+}
