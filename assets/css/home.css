@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.flex-space-around {
+  justify-content: space-around;
+}
+
 .flex-justify-center {
   justify-content: center;
 }
@@ -113,6 +117,10 @@
   border: 1px solid black;
 }
 
+.border_buttom {
+  border-bottom: 3px solid #d35266;
+}
+
 .card_image {
   width: 100%;
   border-top-right-radius: 5px;
@@ -125,4 +133,16 @@
 
 .object_fit {
   object-fit: contain;
+}
+
+.max_footer_block {
+  width: 25%;
+}
+
+.maxh_footer_block{
+  height: 25px;
+}
+
+.text_end {
+  text-align: end;
 }
