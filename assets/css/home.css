@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.items_baseline {
+  align-items: baseline;
+}
+
 .items_stretch {
   align-items: stretch;
 }
@@ -84,16 +88,15 @@
 }
 
 .vh_40 {
-  height: 40vh;
+  height: 30vh;
 }
 
 .display_none {
   display: none;
 }
 
-.cover {
+.flex_c {
   flex-direction: column;
-  align-items: center;
 }
 
 .width_70 {
@@ -152,4 +155,8 @@
 
 .text_end {
   text-align: end;
+}
+
+.border_1_grey {
+  border: 1px solid #a3a3a3;
 }

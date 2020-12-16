@@ -82,3 +82,11 @@
 .bgblack {
   background-color: black;
 }
+
+.bggery {
+  background-color: #f1f1f1;
+}
+
+.bgtranparent {
+  background-color: transparent;
+}

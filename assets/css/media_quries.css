@@ -22,7 +22,7 @@
   }
 
   .font_medium {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .font_small {
@@ -50,6 +50,18 @@
   .margin_right_3 {
     margin-right: 20px;
   }
+
+  .margin_left_15 {
+    margin-left: 15%;
+  }
+
+  .full_width_lg {
+    width: 100%;
+  }
+
+  .flex_md_lg {
+    display: flex;
+  }
 }
 
 /* For Tablet */
@@ -65,6 +77,10 @@
 
   .font_large {
     font-size: 50px;
+  }
+
+  .w_md_100 {
+    width: 100%;
   }
 
   .font_medium {
@@ -87,6 +103,25 @@
 
   .margin_right_3 {
     margin-right: 20px;
+  }
+
+  .margin_left_15 {
+    margin-left: 15%;
+  }
+
+  .margin_x_md {
+    margin: 0 auto;
+  }
+
+  .flex_md_lg {
+    display: flex;
+  }
+}
+
+/* desktop and tablet */
+@media (min-width: 767.92px) {
+  .hidden-desktop {
+    display: none;
   }
 }
 
@@ -159,5 +194,26 @@
 
   .flex_sm {
     flex-wrap: wrap;
+  }
+
+  .margin_left_45 {
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .margin_x_md {
+    margin: 0 auto;
+  }
+
+  .mid_width {
+    width: 74%;
+  }
+
+  .mid_width_100 {
+    width: 100%;
+  }
+
+  .flex_md_lg {
+    display: block;
   }
 }
