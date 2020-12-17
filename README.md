@@ -56,7 +56,7 @@ The project includes 2 pages, including "Home" and "Search".conography have been
 
 ## Video Link
 
-[Video link](https://loom.com/share/folder/1acc74d066c744ea9fab28160fdaab0f)
+[Video link](https://www.dailymotion.com/video/x7y5j02)
 
 ## Getting Started
 
