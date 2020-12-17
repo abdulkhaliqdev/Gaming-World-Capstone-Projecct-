@@ -156,6 +156,10 @@
     margin-top: 95px;
   }
 
+  .margin_top_5 {
+    margin-top: 5%;
+  }
+
   .max_container {
     max-width: 38%;
   }
