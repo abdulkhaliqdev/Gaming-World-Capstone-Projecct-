@@ -1,12 +1,15 @@
-# Gaming-World-Capstone-Projecct-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Gaming Spark
 
-##ScreenShot
+## Screenshort
 
 ![image](https://user-images.githubusercontent.com/70257073/102419241-360f4180-4021-11eb-9912-23ea7425142f.png)
+
+## Design by 
+
+[Mohammed Awad](https://www.behance.net/M_Awad)
+[Design link](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Built With
 
