@@ -116,7 +116,7 @@
 }
 
 .border_left {
-  border-left: 1px;
+  border-left: 1px solid #fff;
 }
 
 .border_radius_20 {
@@ -135,6 +135,10 @@
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+}
+
+.btn_radius_5 {
+  border-radius: 5px;
 }
 
 .text-start {
@@ -159,4 +163,24 @@
 
 .border_1_grey {
   border: 1px solid #a3a3a3;
+}
+
+.cousor_pointer {
+  cursor: pointer;
+}
+
+.border_top {
+  border-top: 1px solid;
+}
+
+.border_right {
+  border-right: 1px solid #8b8b8b;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.visibility_hidden {
+  visibility: hidden;
 }

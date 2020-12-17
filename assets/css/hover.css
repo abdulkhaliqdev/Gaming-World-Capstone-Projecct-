@@ -1,9 +1,15 @@
-.hover_red:hover {
+.hover-red:hover,
+.buttonhover > i :hover {
   color: #d35266;
 }
 
 .buttonhover:hover {
   color: #d35266;
-  background-color: #383838;
-  border: 1px solid white;
+  border: 1px solid white !important;
+  background-color: #f8f8f8 !important;
+}
+
+.hoverplus:hover {
+  color: #d35266;
+  background-color: white;
 }

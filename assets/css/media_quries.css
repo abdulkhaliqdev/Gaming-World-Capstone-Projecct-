@@ -123,6 +123,10 @@
   .hidden-desktop {
     display: none;
   }
+
+  .image_logo {
+    width: 11%;
+  }
 }
 
 /* For Mobile */
@@ -215,5 +219,15 @@
 
   .flex_md_lg {
     display: block;
+  }
+
+  .image_logo {
+    width: 11%;
+  }
+}
+
+@media (max-width: 399.92px) {
+  .hidden_small {
+    display: none;
   }
 }
