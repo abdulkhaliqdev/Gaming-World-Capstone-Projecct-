@@ -5,7 +5,8 @@
 A capstone project is the closing project that students will perform solo. It is designed to assess the student's technical and professional skills from the block that it is closing. For this project, a concept, responsive, mobile-first web page is presented.
 The project includes 2 pages, including "Home" and "Search".conography have been severely altered, the main layout, fonts, and colors have been respected. I thank the Creative Commons website for allowing me to use their template for this project.
 
-#Screenshot
+# Screenshot 
+
 
 # Home Page
 
@@ -22,7 +23,7 @@ The project includes 2 pages, including "Home" and "Search".conography have been
 ![image](https://user-images.githubusercontent.com/70257073/102539515-9b217080-40cf-11eb-9b52-5c75cf4b1e19.png)
 
 
-#Search Page
+# Search Page
 
 ## Desktop
 
@@ -56,11 +57,25 @@ The project includes 2 pages, including "Home" and "Search".conography have been
 
 ## Video Link
 
-[Video link](https://www.dailymotion.com/video/x7y5j02)
+[Video link](https://drive.google.com/file/d/1_2w8kFStvCAHmbR5qFVNqe6oc8VHoVhu/view)
 
-## Getting Started
+##  Getting Started
 
-To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple example steps.
+
+- Go to the main page of the repo.
+- Press the "Code" button and get the repo link.
+- Clone it using git clone.
+
+
+### 📝 Setup
+
+ - Open a terminal
+ - Copy this code : 
+
+        git clone "paste the link copied from github repo code button"
+
+ - Run the Index.html file
 
 ### Usage
 You can open the `index.html` in your web browser.
