@@ -127,6 +127,10 @@
   .image_logo {
     width: 11%;
   }
+
+  .footer_md {
+    width: 20%;
+  }
 }
 
 /* For Mobile */
@@ -229,8 +233,24 @@
     display: block;
   }
 
+  .display_block {
+    display: block;
+  }
+
   .image_logo {
     width: 11%;
+  }
+
+  .footer_md {
+    width: 90%;
+  }
+
+  .margin_x_mobile {
+    margin: 0 auto;
+  }
+
+  .margin_bottom {
+    margin-bottom: 10px;
   }
 }
 
