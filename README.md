@@ -53,11 +53,7 @@ The project includes 2 pages, including "Home" and "Search".conography have been
 
 ## Live Demo
 
-[Live Demo Link](https://ak-devil.github.io/Gaming-World-Capstone-Projecct-/)
-
-## Video Link
-
-[Video link](https://drive.google.com/file/d/1_2w8kFStvCAHmbR5qFVNqe6oc8VHoVhu/view)
+[Live Demo Link](https://abdulkhaliqdev.github.io/Gaming-World-Capstone-Projecct-/)
 
 ##  Getting Started
 
