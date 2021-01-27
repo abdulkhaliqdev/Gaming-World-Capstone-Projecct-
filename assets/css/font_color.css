@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Gothamlight;
+  src: url('../fonts/GothamLight.ttf');
+}
+
+@font-face {
+  font-family: Gothambold;
+  src: url('../fonts/GothamBold.ttf');
+}
+
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url('../fonts/HelveticaNeueLight.ttf');
+}
+
+@font-face {
+  font-family: HelveticaNeueMedium;
+  src: url('../fonts/HelveticaNeueMedium.ttf');
+}
+
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url('../fonts/HelveticaNeueBold.ttf');
+}
+
+.font-GL {
+  font-family: 'Gothamlight', Arial, sans-serif;
+}
+
+.font-GB {
+  font-family: 'Gothambold', Arial, sans-serif;
+}
+
+.font-HNL {
+  font-family: 'HelveticaNeueLight', Arial, sans-serif;
+}
+
+.font-HNM {
+  font-family: 'HelveticaNeueMedium', Arial, sans-serif;
+}
+
+.font-HNB {
+  font-family: 'HelveticaNeueBold', Arial, sans-serif;
+}
+
+.color-red {
+  color: #d35266;
+}
+
+.color-black {
+  color: #383838;
+}
+
+.color-silver {
+  color: #888;
+}
+
+.bgcolor-red {
+  background-color: #d35266;
+}
+
+.bgcolor-black {
+  background-color: #383838;
+}
+
+.bgcolor-silver {
+  background-color: #888;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.bgblack {
+  background-color: black;
+}
+
+.bggery {
+  background-color: #f1f1f1;
+}
+
+.bgtranparent {
+  background-color: transparent;
+}

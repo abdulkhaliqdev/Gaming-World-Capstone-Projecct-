@@ -1,0 +1,261 @@
+/* For Desktop */
+@media (min-width: 992.92px) {
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-space-around {
+    justify-content: space-around;
+  }
+
+  .margin_left {
+    margin-left: 25px;
+  }
+
+  .input_search_position {
+    left: 25%;
+    bottom: 15%;
+  }
+
+  .font_large {
+    font-size: 70px;
+  }
+
+  .font_medium {
+    font-size: 35px;
+  }
+
+  .font_small {
+    font-size: 10px;
+  }
+
+  .flex_md {
+    display: flex;
+  }
+
+  .max_width_hot_card {
+    max-width: 70%;
+  }
+
+  .height_332 {
+    height: 322px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 250px;
+  }
+
+  .margin_right_3 {
+    margin-right: 20px;
+  }
+
+  .margin_left_15 {
+    margin-left: 15%;
+  }
+
+  .full_width_lg {
+    width: 100%;
+  }
+
+  .flex_md_lg {
+    display: flex;
+  }
+}
+
+/* For Tablet */
+@media (max-width: 992.92px) {
+  .hidden-tablet {
+    display: none;
+  }
+
+  .input_search_position {
+    left: 25%;
+    bottom: 15%;
+  }
+
+  .font_large {
+    font-size: 50px;
+  }
+
+  .w_md_100 {
+    width: 100%;
+  }
+
+  .font_medium {
+    font-size: 30px;
+  }
+
+  .font_small {
+    font-size: 10px;
+  }
+
+  .height_332 {
+    height: 322px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 200px;
+  }
+
+  .margin_right_3 {
+    margin-right: 20px;
+  }
+
+  .margin_left_15 {
+    margin-left: 15%;
+  }
+
+  .margin_x_md {
+    margin: 0 auto;
+  }
+
+  .flex_md_lg {
+    display: flex;
+  }
+}
+
+/* desktop and tablet */
+@media (min-width: 767.92px) {
+  .hidden-desktop {
+    display: none;
+  }
+
+  .image_logo {
+    width: 11%;
+  }
+
+  .footer_md {
+    width: 20%;
+  }
+}
+
+/* For Mobile */
+@media (max-width: 767.92px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .input_search_position {
+    left: 28%;
+    bottom: 15%;
+  }
+
+  .full-width {
+    width: 95%;
+  }
+
+  .font_large {
+    font-size: 35px;
+  }
+
+  .max_width {
+    max-width: 250px;
+  }
+
+  .margin_top {
+    margin-top: 95px;
+  }
+
+  .margin_top_5 {
+    margin-top: 5%;
+  }
+
+  .max_container {
+    max-width: 38%;
+  }
+
+  .font_medium {
+    font-size: 20px;
+  }
+
+  .font_small {
+    font-size: 8px;
+  }
+
+  .image_width {
+    width: 240px;
+  }
+
+  .image_height {
+    height: 250px;
+  }
+
+  .contianer_height {
+    height: 500px;
+  }
+
+  .image_width_small {
+    width: auto;
+  }
+
+  .image_height_small {
+    height: 130px;
+  }
+
+  .cardContainer {
+    width: 40%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 200px;
+  }
+
+  .flex_sm {
+    flex-wrap: wrap;
+  }
+
+  .margin_left_45 {
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .margin_x_md {
+    margin: 0 auto;
+  }
+
+  .mid_width {
+    width: 74%;
+  }
+
+  .mid_width_100 {
+    width: 100%;
+  }
+
+  .flex_md_lg {
+    display: block;
+  }
+
+  .display_block {
+    display: block;
+  }
+
+  .image_logo {
+    width: 11%;
+  }
+
+  .footer_md {
+    width: 90%;
+  }
+
+  .margin_x_mobile {
+    margin: 0 auto;
+  }
+
+  .margin_bottom {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 399.92px) {
+  .hidden_small {
+    display: none;
+  }
+}

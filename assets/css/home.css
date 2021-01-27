@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.items_baseline {
+  align-items: baseline;
+}
+
+.items_stretch {
+  align-items: stretch;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.border-radius {
+  border-radius: 50%;
+}
+
+.upper_case {
+  text-transform: uppercase;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+.text-dec {
+  text-decoration: none;
+}
+
+.flex_nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex_end {
+  align-items: flex-end;
+}
+
+.margin_right {
+  margin-right: 10%;
+}
+
+.margin_x {
+  margin: 0 auto;
+}
+
+.margin_y {
+  margin: auto 0;
+}
+
+.z_index {
+  z-index: 100;
+}
+
+.cover_image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/cover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vh_60 {
+  height: 60vh;
+}
+
+.vh_40 {
+  height: 30vh;
+}
+
+.display_none {
+  display: none;
+}
+
+.flex_c {
+  flex-direction: column;
+}
+
+.width_70 {
+  width: 70%;
+}
+
+.width_auto {
+  width: auto;
+}
+
+.height_auto {
+  height: auto;
+}
+
+.border_none {
+  border: none;
+}
+
+.border_left {
+  border-left: 1px solid #fff;
+}
+
+.border_radius_20 {
+  border-radius: 20%;
+}
+
+.border_1 {
+  border: 1px solid black;
+}
+
+.border_buttom {
+  border-bottom: 3px solid #d35266;
+}
+
+.card_image {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn_radius_5 {
+  border-radius: 5px;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.object_fit {
+  object-fit: contain;
+}
+
+.max_footer_block {
+  width: 25%;
+}
+
+.maxh_footer_block {
+  height: 25px;
+}
+
+.text_end {
+  text-align: end;
+}
+
+.border_1_grey {
+  border: 1px solid #a3a3a3;
+}
+
+.cousor_pointer {
+  cursor: pointer;
+}
+
+.border_top {
+  border-top: 1px solid;
+}
+
+.border_right {
+  border-right: 1px solid #8b8b8b;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.visibility_hidden {
+  visibility: hidden;
+}
